@@ -1,1 +1,3 @@
-# Estudo_JS_DOM
+>npm install - g live-server
+
+>live-server

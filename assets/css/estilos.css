@@ -1,0 +1,20 @@
+body {
+    background-color: lightblue;
+}
+
+strong {
+    color: crimson;
+}
+
+.Destaque {
+    color: darkmagenta;
+    font-size: 50px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+#Item {
+    color: white;
+}

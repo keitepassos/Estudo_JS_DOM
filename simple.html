@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="br">
+    <meta CHARSET="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>keite passos - Aula JavaScript + DOM</title>
+        <link rel="stylesheet" 
+              type="text/css"
+              href="../assets/css/estilosSimple.css">   
+    </head>
+    <body>
+     <h3>Total de  Medicamentos:<span id="total"></span></h3>
+    <h1>Meus Medicamentos</h1>
+    <p>Paciente:<strong id="paciente">xxxxxxx</strong></p>
+    <p>Foto:<img src="../assets/img/foto4.png"></p>
+    <form>
+        <input tyle="text" id="medicamento" placeholder="Informe o medicamento">
+        <input type="number" id="preco" placeholder="Informe o preço">
+        <button type="submit" onclick="HandleEnviar(event)">enviar</button>
+    </form>
+    <p>Meus Medicamentos<span id="totalmedicamento"></span></p>
+    <ul id="ListaMedicamentos">
+    </ul>
+
+    <script src="../assets/js/scriptsSimple.js"></script>
+    </body>
+</html>

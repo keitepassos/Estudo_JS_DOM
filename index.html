@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="br">
+    <meta CHARSET="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>keite passos - Aula JavaScript + DOM</title>
+        <link rel="stylesheet" 
+              type="text/css"
+              href="../assets/css/estilos.css">        
+        <style>
+            td{
+                color:green;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h3 style="color:brown">Aula JavaScript</h3>
+            <p id="Item" >Itens abordados</p>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Assincrono</li>
+            </ul>
+             Nome: <strong>Keite</strong>
+            <img src="../assets/img/foto.png">
+            <table id="table">
+                <tr>
+                    <td>
+                        <strong>Cidade</strong>
+                    </td>
+                    <td>
+                        <strong>Idade</strong>
+                    </td>                    
+                </tr>
+                <tr>
+                    <td>
+                        Berlin
+                    </td>
+                    <td>
+                        28
+                    </td>
+                </tr>
+            </table>
+            <h3>DOM</h3>         
+        </div>
+        <form>
+            <input type="text" id="nome" placeholder="Digite aqui seu nome">
+            <button type="submit" onclick="handleEnviar(event)">enviar</button>
+        </form>
+        <ul id="lista">        
+        </ul>
+        <script src="../assets/js/script.js">
+        </script>
+    </body>
+</html> 
